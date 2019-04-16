@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'ColoredLabel_Example' do
+  pod 'ColoredLabel', :path => '../'
+
+  target 'ColoredLabel_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
