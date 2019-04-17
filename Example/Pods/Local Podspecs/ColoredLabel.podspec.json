@@ -1,0 +1,22 @@
+{
+  "name": "ColoredLabel",
+  "version": "0.1.0",
+  "summary": "A short description of ColoredLabel.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Luccifer/ColoredLabel",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Luccifer": "gleb.karp@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/Luccifer/ColoredLabel.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "ColoredLabel/Classes/**/*"
+}

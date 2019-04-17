@@ -1,0 +1,6 @@
+framework module ColoredLabel {
+  umbrella header "ColoredLabel-umbrella.h"
+
+  export *
+  module * { export * }
+}

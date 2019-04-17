@@ -8,8 +8,9 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ColoredLabel'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of ColoredLabel.'
+  s.version          = '0.0.1'
+  s.summary          = 'Little Helper that can determine and set Color of UILabel Text above UIImage or UIImageView.Image'
+  s.swift_versions     = '5.0'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,7 +19,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+Little Helper that can determine and set Color of UILabel Text above UIImage or UIImageView.Image!
                        DESC
 
   s.homepage         = 'https://github.com/Luccifer/ColoredLabel'
@@ -30,7 +31,7 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'ColoredLabel/Classes/**/*'
+  s.source_files = 'Pod/Classes/*'
   
   # s.resource_bundles = {
   #   'ColoredLabel' => ['ColoredLabel/Assets/*.png']
