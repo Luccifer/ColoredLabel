@@ -8,6 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ColoredLabel'
+  s.author           = 'Gleb Karpushkin'
   s.version          = '0.0.1'
   s.summary          = 'Little Helper that can determine and set Color of UILabel Text above UIImage or UIImageView.Image'
   s.swift_versions     = '5.0'
