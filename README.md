@@ -5,6 +5,9 @@
 [![License](https://img.shields.io/cocoapods/l/ColoredLabel.svg?style=flat)](https://cocoapods.org/pods/ColoredLabel)
 [![Platform](https://img.shields.io/cocoapods/p/ColoredLabel.svg?style=flat)](https://cocoapods.org/pods/ColoredLabel)
 
+## About
+A simple lib that can help to add UILabel onto the ImageView which will change it's color state depending on the colors and dark/light summarization of image under it
+
 ## Example
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
