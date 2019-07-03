@@ -11,6 +11,9 @@ A simple lib that can help to add onto the ImageView a/(an?) UILabel which will 
 ## Example
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
+![GIF](https://github.com/Luccifer/ColoredLabel/blob/master/example.gif)
+
+
 
 ## Requirements
 
