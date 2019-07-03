@@ -25,6 +25,8 @@ imageView.image = (self?.isForest)! ? UIImage(named: "mountains") : UIImage(name
 isForest = !isForest
 coloredLabel.colorLabelIfNeededWith(image: imageView.image, colorIfImageIsLight: .black, colorIfImageIsDark: .yellow, lightThreshhold: 0.5)
 
+
+
 ## Requirements
 
 ## Installation
