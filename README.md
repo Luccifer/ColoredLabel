@@ -15,6 +15,15 @@ A simple lib that can help to add onto the ImageView a/(an?) UILabel which will 
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
+```swift
+@IBOutlet weak var coloredLabel: UILabel!
+@IBOutlet weak var imageView: UIImageView!
+
+var isForest: Bool = true
+
+imageView.image = (self?.isForest)! ? UIImage(named: "mountains") : UIImage(named: "forest")
+isForest = !isForest
+coloredLabel.colorLabelIfNeededWith(image: imageView.image, colorIfImageIsLight: .black, colorIfImageIsDark: .yellow, lightThreshhold: 0.5)
 
 ## Requirements
 
